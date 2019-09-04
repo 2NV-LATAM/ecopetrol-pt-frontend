@@ -1,51 +1,10 @@
 ion-content {
-    padding: 0 20px;
+    ion-row {
+        padding: 10px;
+    }
 
     ion-input {
         font-size: 10px;
         min-height: 30px;
     }
-
-    ion-item {
-        --min-height: 30px;
-
-        &.item-lines-inset {
-            --border-width: 1px;
-            --inner-border-width: 0px;
-            --border-radius: 10px;
-        }
-    }
-
-    ion-row {
-        padding: 10px;
-
-        ion-col {
-            &.map {
-                width: 100%;
-                height: 30vh;
-
-                #map_canvas {
-                    width: 100%;
-                    height: 30vh;
-                }
-            }
-
-            ion-note {
-                font-size: 50px;
-            }
-
-            ion-label {
-                display: block;
-            }
-        }
-    }
-
-    .btn-app {
-        text-align: center;
-        border-radius: 10px;
-        background: var(--ion-color-success);
-        color: white;
-        padding: 10px 0;
-    }
-
 }

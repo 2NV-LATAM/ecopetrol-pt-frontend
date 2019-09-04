@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <ion-col size="12">
+      <ion-select placeholder="Fecha">
+        <ion-select-option value="1">Último Día</ion-select-option>
+        <ion-select-option value="2">Últimos Dos Días</ion-select-option>
+        <ion-select-option value="3">Última Semana</ion-select-option>
+        <ion-select-option value="4">Últimos Quince Días</ion-select-option>
+        <ion-select-option value="5">Último Mes</ion-select-option>
+        <ion-select-option value="6">Últimos Seis Meses</ion-select-option>
+      </ion-select>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <canvas #lineCanvas></canvas>
+  </ion-row>
+</ion-content>
