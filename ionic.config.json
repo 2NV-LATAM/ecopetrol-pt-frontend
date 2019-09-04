@@ -1,5 +1,7 @@
 {
   "name": "EcApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

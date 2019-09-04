@@ -1,0 +1,15 @@
+ion-item {
+    &.item-lines-inset {
+        --border-width: 1px;
+        --inner-border-width: 0px;
+    }
+}
+
+ion-row {
+    ion-col {
+        &.map {
+            width: 100%;
+            height: 30vh;
+        }
+    }
+}
