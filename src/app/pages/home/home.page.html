@@ -1,18 +1,23 @@
 <ion-content>
   <ion-row>
-    <ion-col size="4">
+    <ion-col size="3">
       <img src="/assets/images/logo.png" />
     </ion-col>
-    <ion-col size="6" offset="1">
-      <ion-list lines="none">
-        <ion-item lines="inset">
-          <ion-input placeholder="Usuario"></ion-input>
-        </ion-item>
-        <ion-item lines="inset">
-          <ion-input type="password" placeholder="Contraseña"></ion-input>
-        </ion-item>
-        <ion-button color="success">Ingresar</ion-button>
-      </ion-list>
+    <ion-col>
+      <ion-item lines="inset">
+        <ion-input placeholder="Usuario"></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item lines="inset">
+        <ion-input type="password" placeholder="Contraseña"></ion-input>
+      </ion-item>
+    </ion-col>
+
+    <ion-col size="2">
+      <ion-button size="small" color="success">
+        <ion-icon name="log-in"></ion-icon>
+      </ion-button>
     </ion-col>
   </ion-row>
   <ion-row>
@@ -21,9 +26,27 @@
     </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="12" text-center>
-      <ion-note color="primary">{{temperature}}</ion-note>
-      <ion-label> {{city}}</ion-label>
+    <ion-col size="12" text-center>      
+      <ion-label> <ion-note color="primary">{{temperature}}</ion-note> {{city}}</ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6">
+      <div class="btn-app">
+        <h5>Valor Petróleo</h5>
+        <h2>63 USD</h2>
+      </div>
+    </ion-col>
+    <ion-col size="6">
+      <div class="btn-app">
+        <h5>Valor Bolsa</h5>
+        <h2>111</h2>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-button color="success" size="block">FAQ</ion-button>
     </ion-col>
   </ion-row>
 </ion-content>
